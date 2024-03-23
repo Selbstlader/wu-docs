@@ -3,38 +3,53 @@
 layout: home
 
 hero:
-  name: '不要额外加糖'
-  text: '专门收集本人学习笔记'
+  name: '明日方舟'
+  text: '小菜专门收集本人学习笔记'
   image:
-    src: './static/img/xin.png'
+    src: './static/img/user.jpg'
     alt: Fu
-  tagline: 读书笔记专栏
+  tagline: 语雀
   actions:
     - theme: brand
-      text: 开始学习
+      text: 开卷
       link: /note/ajax
+    - theme: alt
+      text: 小册子
+      link: /doc/Node/0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位
     - theme: alt
       text: 基础面试题
       link: /interview/html
+    # - theme: alt
+    #   text: 万物互联
+    #   link: /ioT/AC.html
 
 features:
   - icon:
       src: ./static/img/LogosVue.svg
     title: Vue
-    details: Vue 是一个 JavaScript 框架，旨在帮助开发人员构建可扩展的 Web 应用程序。
+    details: 是中国人就用Vue
   - icon:
       src: ./static/img/LogosVitejs.svg
     title: Vite
-    details: Vite是下一代前端开发与构建工具。
+    details: 跑分背景板
   - icon:
       src: ./static/img/LogosReact.svg
     title: React
-    details: React是用于构建用户界面的JavaScript库，起源于Facebook的内部项目
+    details: 不是react我不用
 ---
 
 <style>
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+.VPContent{
+    /* background-image: url('./static/img/bg.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+  /* background-image: linear-gradient(to right, #bd34fe, #41d1ff); */
 }
 </style>
