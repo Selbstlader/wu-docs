@@ -8,6 +8,7 @@ export default defineConfig({
       { rel: 'icon', href: './static/img/favicon.ico' }
     ]
   ],
+  base:"/wu-docs/",
   title: "不要额外加糖",
   description: "专门收集本人的学习笔记",
   themeConfig: {
