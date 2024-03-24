@@ -11,11 +11,11 @@ hero:
   tagline: 语雀
   actions:
     - theme: brand
+      text: 小册子
+      link: /doc/Electron/1
+    - theme: alt
       text: 开卷
       link: /note/ajax
-    - theme: alt
-      text: 小册子
-      link: /doc/Node/0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位
     - theme: alt
       text: 基础面试题
       link: /interview/html

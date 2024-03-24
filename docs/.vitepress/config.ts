@@ -96,36 +96,36 @@ export default defineConfig({
         {
           text: '小册子',
           collapsed: true, // 可以折叠，且默认关闭
-          // items: [
-          //   {
-          //     text: '10+ 代码案例掌握 NodeJS 核心基础知识',
-          //     items: [
-          //       { text: '0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位', link: '/doc/Node/0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位.md' },
-          //       { text: '1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力', link: '/doc/Node/1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力.md' },
-          //       { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
-          //       { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
-          //       { text: '3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理', link: '/doc/Node/3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理.md' },
-          //       { text: '4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM', link: '/doc/Node/4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM.md' },
-          //       { text: '5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs', link: '/doc/Node/5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs.md' },
-          //       { text: '6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter', link: '/doc/Node/6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter.md' },
-          //       { text: '7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer', link: '/doc/Node/7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer.md' },
-          //       { text: '8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe', link: '/doc/Node/8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe.md' },
-          //       { text: '9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等', link: '/doc/Node/9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等.md' },
-          //       { text: '10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应', link: '/doc/Node/10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应.md' },
-          //       { text: '11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster', link: '/doc/Node/11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster.md' },
-          //       { text: '12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力', link: '/doc/Node/12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力.md' },
-          //       { text: '13源码解读：Node 的程序架构及启动流程', link: '/doc/Node/13源码解读：Node 的程序架构及启动流程.md' },
-          //     ]
-          //   },
-          // ]
-        }
-      ],
-      '/ioT': [ {
-          text: '万物互联',
           items: [
-            { text: '小空调', link: '../ioT/AC.html' },
+            {
+              text: 'Electron + Vue 3 桌面应用开发',
+              items: [
+                { text: 'Electron 是什么？可以做什么', link: '/doc/Node/1.md' },
+                { text: '3.如何开发 Vite 3 插件构建 Electron 开发环境？', link: '/doc/Node/2.md' }, 
+                { text: '4.如何开发 Vite 3 插件打包 Electron 应用？', link: '/doc/Node/3.md' },
+                { text: '5.如何引入 vue-router 及控制工程架构？', link: '/doc/Node/4.md' }, 
+                { text: '6.如何管控应用的窗口（上）？', link: '/doc/Node/5.md' }, 
+                { text: '7.如何管控应用的窗口（下）？', link: '/doc/Node/6.md' }, 
+                { text: '8.如何引入 Pinia 并管控应用的数据状态？', link: '/doc/Node/7.md' }, 
+                { text: '9.如何引入客户端数据库及相关工具？', link: '/doc/Node/8.md' }, 
+                { text: '10.桌面应用开发需要掌握哪些数据库知识（上）？', link: '/doc/Node/9.md' }, 
+                { text: '11.桌面应用开发需要掌握哪些数据库知识（下）？', link: '/doc/Node/10.md' }, 
+                { text: '12.如何为 Electron 应用开发原生模块？', link: '/doc/Node/11.md' }, 
+                { text: '13.如何升级 Electron 应用？', link: '/doc/Node/12.md' }, 
+                { text: '14.Electron 应用具备哪些特征？', link: '/doc/Node/13.md' }, 
+                { text: '15.如何调试 Electron 应用？', link: '/doc/Node/14.md' }, 
+                { text: '16.Electron 疑难杂症解决方案', link: '/doc/Node/15.md' },
+              ]
+            },
           ]
         }
+      ],
+      '/ioT': [{
+        text: '万物互联',
+        items: [
+          { text: '小空调', link: '../ioT/AC.html' },
+        ]
+      }
       ]
     },
 
