@@ -96,32 +96,31 @@ export default defineConfig({
         {
           text: '小册子',
           collapsed: true, // 可以折叠，且默认关闭
-          items: [
-            {
-              text: '10+ 代码案例掌握 NodeJS 核心基础知识',
-              items: [
-                { text: '0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位', link: '/doc/Node/0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位.md' },
-                { text: '1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力', link: '/doc/Node/1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力.md' },
-                { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
-                { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
-                { text: '3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理', link: '/doc/Node/3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理.md' },
-                { text: '4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM', link: '/doc/Node/4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM.md' },
-                { text: '5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs', link: '/doc/Node/5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs.md' },
-                { text: '6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter', link: '/doc/Node/6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter.md' },
-                { text: '7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer', link: '/doc/Node/7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer.md' },
-                { text: '8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe', link: '/doc/Node/8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe.md' },
-                { text: '9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等', link: '/doc/Node/9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等.md' },
-                { text: '10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应', link: '/doc/Node/10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应.md' },
-                { text: '11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster', link: '/doc/Node/11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster.md' },
-                { text: '12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力', link: '/doc/Node/12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力.md' },
-                { text: '13源码解读：Node 的程序架构及启动流程', link: '/doc/Node/13源码解读：Node 的程序架构及启动流程.md' },
-              ]
-            },
-          ]
+          // items: [
+          //   {
+          //     text: '10+ 代码案例掌握 NodeJS 核心基础知识',
+          //     items: [
+          //       { text: '0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位', link: '/doc/Node/0开篇介绍：Node 10 年大跃进与当下在互联网研发中的地位.md' },
+          //       { text: '1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力', link: '/doc/Node/1源码挖掘： Webpack 中用到 Node 的 10 个核心基础能力.md' },
+          //       { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
+          //       { text: '2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）', link: '/doc/Node/2案例一： [龟兔赛跑] Node 的语言基础 - JS（ES5[6[7[8）.md' },
+          //       { text: '3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理', link: '/doc/Node/3案例二： [视频时长统计] Node 的模块机制（CommonJS）与包管理.md' },
+          //       { text: '4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM', link: '/doc/Node/4案例三：[发布 LTS 查看工具] Node 的生态利器 - NPM.md' },
+          //       { text: '5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs', link: '/doc/Node/5案例四：[中英文 JSON 合并工具] Node 的文件操作能力 - fs.md' },
+          //       { text: '6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter', link: '/doc/Node/6案例五： [实现一个音乐播放器] Node 的事件机制 - EventEmitter.md' },
+          //       { text: '7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer', link: '/doc/Node/7案例六：[图片拷贝小工具] - Node 的编码与缓冲 - Buffer.md' },
+          //       { text: '8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe', link: '/doc/Node/8案例七：[视频流转 MP3 工具] - Node 数据流和管道 - Stream[pipe.md' },
+          //       { text: '9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等', link: '/doc/Node/9案例八：[静态资源服务器] - Node 工具集 - path[util[zlib 等.md' },
+          //       { text: '10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应', link: '/doc/Node/10案例九： [实现 N 个 API[网页爬虫] Node 的 HTTP 处理 - 请求与响应.md' },
+          //       { text: '11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster', link: '/doc/Node/11案例十： [压测 Cluster 的并发负载] Node 的集群 - cluster.md' },
+          //       { text: '12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力', link: '/doc/Node/12案例十一：[埋点搜集服务器] - 总结： Koa 服务端框架用到了哪些能力.md' },
+          //       { text: '13源码解读：Node 的程序架构及启动流程', link: '/doc/Node/13源码解读：Node 的程序架构及启动流程.md' },
+          //     ]
+          //   },
+          // ]
         }
       ],
-      '/ioT': [
-        {
+      '/ioT': [ {
           text: '万物互联',
           items: [
             { text: '小空调', link: '../ioT/AC.html' },
