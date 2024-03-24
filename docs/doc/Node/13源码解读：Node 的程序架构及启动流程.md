@@ -382,7 +382,3 @@ static bool ExecuteBootstrapper(
 * 到底 loaders.js 和 node.js 是怎么让我们的模块系统生效的？
 
 第一个问题，它的背后涉及到 `require/exports` 如何生效，Node 里面的模块和我们 npm install 的模块是如何加载进来工作的，是非常核心的基础知识，我们在 [[视频时长统计] Node 的模块机制（CommonJS）与包管理](https://juejin.im/editor/book/5bc1bf3e5188255c3272e315/section/5bc213906fb9a05cd676e08b)有过探讨。
-
-## 思考
-
-最后给大家留一个小作业，比如 Node server.js 的这个 server.js 作为被执行文件的路径参数，到底是如何一层层传下来的，以及从 main 到 3 个 Start，到 `bootstrapper->Call()`，中间有引擎实例啊，上下文啊各种参数，它们一路传下来，参数也经过不断加工，在每个环节又各是什么意思，大家可以自己尝试思考下，结合源码在本地画一画答案。
