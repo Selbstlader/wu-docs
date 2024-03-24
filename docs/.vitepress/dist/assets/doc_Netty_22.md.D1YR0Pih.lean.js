@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a4 as r}from"./chunks/framework.DLF8A2I8.js";const m=JSON.parse('{"title":"小册读者总结","description":"","frontmatter":{},"headers":[],"relativePath":"doc/Netty/22.md","filePath":"doc/Netty/22.md"}'),o={name:"doc/Netty/22.md"},n=r("",5),c=[n];function i(l,s,_,h,p,d){return a(),t("div",null,c)}const b=e(o,[["render",i]]);export{m as __pageData,b as default};

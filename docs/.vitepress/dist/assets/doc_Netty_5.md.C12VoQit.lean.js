@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as s,a4 as e}from"./chunks/framework.DLF8A2I8.js";const g=JSON.parse('{"title":"客户端启动流程","description":"","frontmatter":{},"headers":[],"relativePath":"doc/Netty/5.md","filePath":"doc/Netty/5.md"}'),p={name:"doc/Netty/5.md"},t=e("",37),o=[t];function l(i,c,r,d,u,h){return s(),a("div",null,o)}const m=n(p,[["render",l]]);export{g as __pageData,m as default};
