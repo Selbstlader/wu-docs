@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: '明日方舟'
+  name: '决战平安京'
   text: '小菜专门收集本人学习笔记'
   image:
-    src: './static/img/user.jpg'
+    src: './static/img/875795.jpg'
     alt: Fu
-  tagline: 语雀
+  tagline: 遥遥落后
   actions:
     - theme: brand
       text: 小册子

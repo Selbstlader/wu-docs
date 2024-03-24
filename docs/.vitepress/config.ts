@@ -9,7 +9,7 @@ export default defineConfig({
     ]
   ],
   base: "/wu-docs/",
-  title: "明日方舟",
+  title: "小菜的笔记",
   description: "专门收集本人的学习笔记",
   themeConfig: {
     logo: './static/img/favicon.ico', search: {
