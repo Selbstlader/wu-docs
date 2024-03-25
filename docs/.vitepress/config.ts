@@ -77,6 +77,7 @@ export default defineConfig({
             { text: 'Nest', link: '../note/nest' },
             { text: 'Mysql', link: '../note/mysql' },
             { text: 'Rust', link: '../note/rust' },
+            { text: 'Electron', link: '../note/Electron' }
           ]
         }
       ],
