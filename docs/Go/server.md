@@ -94,7 +94,6 @@ func main() {
   }
 ```
 # RPC的调用流程
- 1. GO微服务架构下 数据交互是对内RPC 对外REST
- 将业务拆分到各个微服务，具有提高项目协助的效率。
- ![Alternative text](../public/static/img/goRPC.png "optional title")
- 
+  GO微服务架构下 数据交互是对内RPC 对外REST
+  将业务拆分到各个微服务，具有提高项目协助的效率。
+  ![Alternative text](../public/static/img/goRPC.png "optional title")
