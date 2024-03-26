@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 基础面试题
       link: /interview/html
+    - theme: alt
+      text: Golang
+      link: /Go/server
     # - theme: alt
     #   text: 万物互联
     #   link: /ioT/AC.html
@@ -36,7 +39,12 @@ features:
       src: ./static/img/LogosReact.svg
     title: React
     details: 不是react我不用
+  - icon:
+      src: ./static/img/th.png
+    title: Go
+    details: 不是Go我不学
 ---
+
 
 <style>
 :root {

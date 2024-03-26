@@ -149,10 +149,10 @@ export default defineConfig({
           ]
         }
       ],
-      '/ioT': [{
-        text: '万物互联',
+      '/Go/': [{
+        text: 'Go',
         items: [
-          { text: '小空调', link: '../ioT/AC.html' },
+          { text: '微服务', link: '../Go/server' },
         ]
       }
       ]
