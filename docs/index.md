@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: Golang
       link: /Go/server
+    - theme: alt
+      text: PYTHON
+      link: /Python/index
     # - theme: alt
     #   text: 万物互联
     #   link: /ioT/AC.html
@@ -31,10 +34,10 @@ features:
       src: ./static/img/LogosVue.svg
     title: Vue
     details: 是中国人就用Vue
-  - icon:
-      src: ./static/img/LogosVitejs.svg
-    title: Vite
-    details: 跑分背景板
+  # - icon:
+  #     src: ./static/img/LogosVitejs.svg
+  #   title: Vite
+  #   details: 跑分背景板
   - icon:
       src: ./static/img/LogosReact.svg
     title: React
@@ -43,6 +46,10 @@ features:
       src: ./static/img/th.png
     title: Go
     details: 不是Go我不学
+  - icon:
+      src: ./static/img/pyth.png
+    title: Python
+    details: Go真不熟
 ---
 
 
