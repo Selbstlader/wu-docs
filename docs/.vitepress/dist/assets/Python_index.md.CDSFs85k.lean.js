@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a4 as p}from"./chunks/framework.DLF8A2I8.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Python/index.md","filePath":"Python/index.md"}'),l={name:"Python/index.md"},e=p("",8),i=[e];function c(t,o,r,d,u,h){return a(),n("div",null,i)}const f=s(l,[["render",c]]);export{b as __pageData,f as default};
