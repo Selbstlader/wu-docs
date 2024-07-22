@@ -19,12 +19,15 @@ hero:
     - theme: alt
       text: 基础面试题
       link: /interview/html
+    # - theme: alt
+    #   text: Golang
+    #   link: /Go/server
+    # - theme: alt
+    #   text: PYTHON
+    #   link: /Python/index
     - theme: alt
-      text: Golang
-      link: /Go/server
-    - theme: alt
-      text: PYTHON
-      link: /Python/index
+      text: Vue3
+      link: /Vue/index
     # - theme: alt
     #   text: 万物互联
     #   link: /ioT/AC.html
