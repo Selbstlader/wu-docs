@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as e,ag as p}from"./chunks/framework.CPUF7_g-.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"doc/Netty/18.md","filePath":"doc/Netty/18.md"}'),l={name:"doc/Netty/18.md"};function o(t,n,i,c,r,d){return e(),a("div",null,n[0]||(n[0]=[p("",77)]))}const b=s(l,[["render",o]]);export{h as __pageData,b as default};

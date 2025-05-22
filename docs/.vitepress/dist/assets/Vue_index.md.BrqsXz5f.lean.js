@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as p,ag as e}from"./chunks/framework.CPUF7_g-.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Vue/index.md","filePath":"Vue/index.md"}'),l={name:"Vue/index.md"};function t(i,s,o,c,r,d){return p(),a("div",null,s[0]||(s[0]=[e("",56)]))}const h=n(l,[["render",t]]);export{m as __pageData,h as default};

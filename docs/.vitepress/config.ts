@@ -43,7 +43,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '个人博客', link: '/blog/2022-05-28' },
-      { text: '指南', link: '/Vue/index' }
+      { text: '指南', link: '/Vue/index' },
+      // { text: 'JAVA', link: '/JAVA/01-data-types' }
     ],
 
     sidebar: {
@@ -55,6 +56,29 @@ export default defineConfig({
             { text: 'CSS', link: '../interview/css' },
             { text: 'JS', link: '../interview/javascript' },
             { text: 'Vue', link: '../interview/vue' }
+          ]
+        }
+      ],
+      '/JAVA/': [
+        {
+          text: 'JAVA学习笔记',
+          items: [
+            { text: '01-数据类型', link: '/JAVA/01-data-types' },
+            { text: '02-控制流', link: '/JAVA/02-control-flow' },
+            { text: '03-简化表达式', link: '/JAVA/03-shortcut-expressions' },
+            { text: '04-面向对象编程', link: '/JAVA/04-oop' },
+            { text: '05-抽象类和接口', link: '/JAVA/05-abstract-and-interface' },
+            { text: '06-Java8特性', link: '/JAVA/06-java8-features' },
+            { text: '07-集合框架', link: '/JAVA/07-collection-framework' },
+            { text: '08-IO操作', link: '/JAVA/08-io-operations' },
+            { text: '09-多线程', link: '/JAVA/08-multithreading' },
+            { text: '10-网络编程', link: '/JAVA/09-network-programming' },
+            { text: '11-反射', link: '/JAVA/11-reflection' },
+            { text: '12-反射应用场景', link: '/JAVA/12-reflection-scenarios' },
+            { text: '13-Spring核心', link: '/JAVA/13-spring-core' },
+            { text: '14-面向切面编程', link: '/JAVA/14-aop' },
+            { text: '15-Spring MVC', link: '/JAVA/15-spring-mvc' },
+            { text: '16-Spring Data', link: '/JAVA/16-spring-data' }
           ]
         }
       ],

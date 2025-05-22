@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as p,ag as l}from"./chunks/framework.CPUF7_g-.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Python/index.md","filePath":"Python/index.md"}'),e={name:"Python/index.md"};function i(c,s,t,o,r,d){return p(),a("div",null,s[0]||(s[0]=[l("",8)]))}const g=n(e,[["render",i]]);export{h as __pageData,g as default};

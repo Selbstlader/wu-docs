@@ -19,9 +19,9 @@ hero:
     - theme: alt
       text: 基础面试题
       link: /interview/html
-    # - theme: alt
-    #   text: Golang
-    #   link: /Go/server
+    - theme: alt
+      text: JAVA
+      link: /JAVA/01-data-types
     # - theme: alt
     #   text: PYTHON
     #   link: /Python/index
