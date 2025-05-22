@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置HelloWorld bean -->
+    <bean id="helloWorld" class="com.example.spring.core.HelloWorld">
+        <!-- 使用setter方法注入属性值 -->
+        <property name="message" value="你好，Spring！"/>
+    </bean>
+
+</beans> 
